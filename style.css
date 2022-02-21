@@ -1,3 +1,11 @@
+@font-face {
+  font-family: skyrim;
+  src: url(assets/skyrim.ttf);
+}
+@font-face {
+  font-family: typo;
+  src: url(assets/typo3.ttf);
+}
 canvas{
   position: fixed;
   top: 0;
@@ -11,7 +19,18 @@ main{
 }
 
 section{
-  background-color: rgba(195, 224, 229, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
   grid-column: 2/8;
   margin: 10px;
+  font-family: typo;
+}
+
+h1, h2, h3, h4{
+  font-family: skyrim;
+}
+
+#title{
+  text-align: center;
+  font-size: larger;
 }
